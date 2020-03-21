@@ -1,0 +1,137 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+name {
+  letter-spacing: 10px;
+  font-face: serif;
+  font-size: 100px;
+  padding: 20px 10px;
+  color: #A7ff3b;
+}
+
+h1 {
+  text-align: center;
+  font-face: Trebuchet MS;
+  font-style: bold;
+  color: #FD7066;
+}
+.button {
+  border-radius: 10px;
+  background-color: #858585;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom, green, black);
+  transition: background-image 2s;
+}
+
+.button:hover {
+  background-image: linear-gradient(to bottom right, green, green);
+}
+.applemusicbutton {
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom right, red, yellow);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-image 2s;
+}
+.applemusicbutton:hover {
+  background-image: linear-gradient(to bottom right, blue, red);
+  
+}
+ul {
+  border-radius: 10px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: display 2s;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+div.box {
+  width: 400px;
+  border: 5px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+
+.blackbg {
+  text-align: center;
+  padding: 20px;
+  width: 5%;
+  height:15%;
+  font-size: 8px;
+  border-radius: 10px;
+  background-color: grey;
+  font-face: Trebuchet MS;
+  color: black;
+  transition: width 2s, font-size 2s, height 2s, background-color 1s;
+}
+.blackbg:hover {
+  width: 10%;
+  font-size: 15px;
+  height: 15%;
+  background-color: red;
+}
+.form {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
