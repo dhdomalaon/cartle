@@ -162,11 +162,8 @@ name {
     font-size: medium;
     font-style: normal;
     color: red;
-    transition: all, 2s;
+    transition: color, 2s;
   }
   .maintenance:hover {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: medium;
-    font-style: normal;
-    color: red, royalblue;
+    color: blue;
   }
