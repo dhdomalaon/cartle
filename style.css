@@ -156,4 +156,17 @@ name {
     line-height: 36px;
     color: white;
   }
-  
+
+  .maintenance {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: red;
+    transition: all, 2s;
+  }
+  .maintenance:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    font-style: normal;
+    color: red, royalblue;
+  }
